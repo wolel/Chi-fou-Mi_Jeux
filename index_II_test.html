@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pierre/papier/cisceaux_varII</title>
+    <meta name="viewport" content="width=device-width, user-scalable=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style_II_test.css">
+
+
+</head>
+<body>
+<!-------------HEADER----------------->
+<div id="titre">Play: Chi-Fou-Mi</div>
+<div id="image">
+    <img id ="siceaux" src="image/siceaux.jpg">
+    <img id ="pierre" src="image/pierre.jpg">
+    <img id = "papier" src="image/papier.jpg">
+</div>
+
+<!-------------HEADER FIN----------------->
+
+<div class="container">
+    <div class ="row">
+        <div class="col-sm-4" id="imgVous">
+            <h2>Vous</h2>
+
+            <img class="imgV" id="imgPapier" src="image/papier.jpg">
+            <img class="imgV" id ="imgPierre" src="image/pierre.jpg">
+            <img class="imgV" id="imgSiceaux" src="image/siceaux.jpg">
+
+        </div>
+        <div class="col-sm-4">
+            <h2>Score</h2>
+            <input id="score" type="text" value="votre score est:">
+            <input id="txtScore" type="text">
+            <button id="btn" type="button" onclick="window.location.reload()">Rejouer</button>
+        </div>
+        <div class="col-sm-4" id="imgPC">
+            <h2>PC</h2>
+
+            <img id="imgPapierPC" src="image/papier.jpg">
+            <img id ="imgPierrePC" src="image/pierre.jpg">
+            <img id="imgSiceauxPC" src="image/siceaux.jpg">
+        </div>
+    </div>
+</div>
+
+<script src="script_II_test.js"></script>
+</body>
+</html>
