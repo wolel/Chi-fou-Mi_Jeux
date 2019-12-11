@@ -36,10 +36,11 @@ h2{
 }
 .container{
     border: 2px solid white;
-    width: 100%;
+    width: 80%;
     height: 400px;
     text-align: center;
     background-color: rgb(108,152,223);
+
 }
 /*----------------body fin--------------*/
 .imgV:hover{
@@ -55,17 +56,20 @@ h2{
     font-size: 30px;
     color: #333;
     font-weight: bold;
+    width: 150px;
 
 }
 
 #scoreField{
      background-color: white;
-     margin-top: 30px;
      border: 2px solid white;
      width: 350px;
      font-size: 20px;
      text-align: center;
      font-weight: bold;
+     margin-left: -87px;
+     margin-top: 149px;
+    padding: 10px;
 
  }
 #imgPC img{
@@ -78,14 +82,18 @@ h2{
 .imgV{
     width: 30%;
 }
-
 #btn{
     display: none;
-    padding: 10px;
-    background-color: rgb(9, 63, 100) ;
-    border: none;
+    padding: 30px;
+    margin-top: 10px;
+    border:white;
     color: white;
- }
+    background-color: rgb(9, 63, 100) ;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
 /*------MediaQueries---------------
 
 @media only screen and (max-device-width: 568px)

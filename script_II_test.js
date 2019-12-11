@@ -73,7 +73,7 @@ for (var i = 0; i < allImgPC.length;i++) {
         }
         if (countF === 3) {
 
-            txtScore.value = 'Le PC a gagner contre vous';
+            txtScore.value = 'Le PC a gagné contre VOUS';
             score.style.cssText = 'display:none';
             countF = 0;
             countV = 0;
@@ -84,7 +84,7 @@ for (var i = 0; i < allImgPC.length;i++) {
 
         } else if (countV === 3) {
 
-            txtScore.value = 'Vous avez gagner contre le PC';
+            txtScore.value = 'VOUS avez gagné contre le PC';
             score.style.cssText = 'display:none';
             countF = 0;
             countV = 0;
